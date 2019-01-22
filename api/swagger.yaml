@@ -4,16 +4,12 @@ info:
   description: "MetroCars WebServices"
   version: "0.9.3"
   title: "Swagger MetroCars"
-  termsOfService: "http://www.metro.fake/terms/"
   contact:
-    email: "contact@metro.fake"
-host: "metro.fake:8080"
+    email: "ball_cyril@hotmail.com"
+host: "nodejs-mongo-persistent-metrocars-webstore.7e14.starter-us-west-2.openshiftapps.com:8080"
 tags:
 - name: "car"
   description: "Tout sur les voitures"
-  externalDocs:
-    description: "Find out more"
-    url: "http://www.metro.fake/metrocars.html"
 - name: "brand"
   description: "Les marques"
 - name: "order"
@@ -223,6 +219,3 @@ definitions:
       id: 27
       stock: 9
       desc: "La meilleure voiture de sa catégorie !"
-externalDocs:
-  description: "En savoir plus sur MetroCars"
-  url: "http://www.metro.fake/a-propos.html"
