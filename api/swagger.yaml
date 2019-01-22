@@ -6,7 +6,7 @@ info:
   title: "Swagger MetroCars"
   contact:
     email: "ball_cyril@hotmail.com"
-host: "nodejs-mongo-persistent-metrocars-webstore.7e14.starter-us-west-2.openshiftapps.com:8080"
+host: "127.0.0.1:8080"
 tags:
 - name: "car"
   description: "Tout sur les voitures"
