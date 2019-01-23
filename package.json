@@ -1,6 +1,6 @@
 {
-  "name": "swagger-metrocars",
-  "version": "0.9.3",
+  "name": "metrocars-webstore",
+  "version": "0.9.99",
   "description": "MetroCars WebServices",
   "main": "index.js",
   "scripts": {
@@ -17,5 +17,13 @@
     "js-yaml": "^3.3.0",
     "mongodb": "^3.1.8",
     "swagger-tools": "0.10.1"
+  },
+  "engine": {
+    "node": "*",
+    "npm": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cyrilmetrocars/webstore.git"
   }
 }

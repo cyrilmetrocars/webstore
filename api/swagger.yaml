@@ -3,7 +3,7 @@ swagger: "2.0"
 info:
   description: "MetroCars WebServices"
   version: "0.9.3"
-  title: "Swagger MetroCars"
+  title: "MetroCars Webstore"
   contact:
     email: "ball_cyril@hotmail.com"
 host: "127.0.0.1:8080"

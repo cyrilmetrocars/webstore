@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="description" content="MetroCars... Le site qui vous loue des CARS !">
+    <meta name="title" content="Bienvenue chez MetroCars">
+    <meta name="author" content="METRO">
+
+    <title>MetroCars</title>
+
+    <!-- CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+
+    <!-- JS -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/metro-es6.js"></script> <!-- framework maison -->
+    <script src="js/model/car-es6.js"></script> <!-- ORM Car = Object Relational Mapping -->
+    <script src="index-es6.js"></script>
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="/index.php" data-metro-url="index-fragment.html" data-metro-title="MetroCars : location de voitures !">MetroCars</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Afficher / Masquer le menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link navigate" href="/index.php" data-metro-url="index-fragment.html" data-metro-title="Bienvenue chez MetroCars">Accueil <span class="sr-only">(menu courant)</span></a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://www.metro.orsys" id="ddCars" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Voitures</a>
+            <div class="dropdown-menu" aria-labelledby="ddCars">
+
+              <span class="dropdown-header" href="#">Général</span>
+              <a class="dropdown-item navigate" href="voitures.php" data-metro-title="Louez nos voitures" data-metro-url="voitures-fragment.html" data-metro-resource="cars">Toutes</a>
+              <a class="dropdown-item" href="#">10 + chères</a>
+              <a class="dropdown-item" href="#" id="menuDirty">Dirty cars</a>
+
+              <div class="dropdown-divider"></div>
+
+              <span class="dropdown-header" href="#">Marques</span>
+              
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link navigate" href="#">Panier</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link navigate" href="a-propos.html" data-metro-url="a-propos-fragment.html" data-metro-title="A propos de MetroCars">A propos</a>
+          </li>
+
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <label for="search" class="sr-only">Rechercher</label>
+          <input id="search" class="form-control mr-sm-2" type="text" placeholder="Rechercher" aria-label="Recherche">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Chercher</button>
+        </form>
+      </div>
+    </nav>
+
+    <main>
+
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <div class="container">
+          <h1 class="alert alert-success display-3">MetroCars</h1>
+          <p>La seule vraie boutique pas chère efficace super de tout le web pour louer des voitures superbes ! Et ça c'est cool!</p>
+          <p><a class="btn btn-primary btn-lg" href="#" role="button">En savoir plus &raquo;</a></p>
+        </div>
+      </div>
+
+      <div class="container">
+
+        1er chargement
+        
+      </div> <!-- /container -->
+
+    </main>
+
+    <footer class="container">
+      <p>&copy; Metro 2018-2018-2018</p>
+    </footer>
+  </body>
+</html>
