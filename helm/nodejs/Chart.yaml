@@ -1,0 +1,9 @@
+name: nodejs
+version: 0.1
+description: An example Node.js application with no database. For more information about using this template, including OpenShift considerations, see https://github.com/cyrilmetrocars/webstore/blob/master/README.md.
+keywords:
+- quickstart
+- nodejs
+home: https://www.orsys.fr
+sources:
+- https://github.com/cyrilmetrocars/webstore

@@ -1,1 +1,1 @@
-### Node simple viewapp
+# Openshift - NodeJS / MongoDB project

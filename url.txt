@@ -1,0 +1,2 @@
+https://docs.openshift.com/online/getting_started/basic_walkthrough.html
+https://docs.openshift.com/online/getting_started/beyond_the_basics.html

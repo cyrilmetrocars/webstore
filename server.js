@@ -22,5 +22,4 @@ app.listen(8080);
     // mongoPassword = process.env[mongoServiceName + '_PASSWORD'];
     // mongoUser = process.env[mongoServiceName + '_USER'];
 
-console.log('Server running');
-//console.log('Server running on http://%s:%s', process.env.IP, process.env.PORT);
+console.log('Server running on port 8080');
