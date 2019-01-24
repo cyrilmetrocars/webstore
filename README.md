@@ -1,2 +1,1 @@
-# Openshift - NodeJS / MongoDB project
-test
+### Node simple viewapp
