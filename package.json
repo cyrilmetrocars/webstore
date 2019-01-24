@@ -1,6 +1,6 @@
 {
   "name": "metrocars-webstore",
-  "version": "1",
+  "version": "0.9.3",
   "description": "MetroCars WebServices",
   "main": "server.js",
   "scripts": {
